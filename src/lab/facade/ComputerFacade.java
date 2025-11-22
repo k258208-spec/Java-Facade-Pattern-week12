@@ -47,5 +47,8 @@ public class ComputerFacade {
     if (hd instanceof Hdd) System.out.println("HDD reads = " + Hdd.reads);
 
     System.out.println("Facade: power off\n");
+    System.out.println("===== METRICS REPORT =====");
+    System.out.println("HDD reads = " + HardDrive.getReads());
+    System.out.println("==========================");
     }
 }
